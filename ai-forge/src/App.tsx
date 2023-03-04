@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css'
-import Layout from './components/common/Layout';
+import Layout from './components/common/Layout/Layout';
 import Home from './pages/Home/Home';
+import IAModels from './pages/IAModels/IAModels';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 
@@ -14,7 +15,7 @@ function App() {
           path="/"
           element={
             <Layout>
-              {<Home />}
+              {<IAModels />}
             </Layout>
           }
         />

@@ -1,0 +1,7 @@
+button{
+    background-color: var(--title);
+    border: none;
+    border-radius: 20px;
+    width: 132px;
+    height: 42px;
+}
