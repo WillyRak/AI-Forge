@@ -40,9 +40,9 @@ npm run dev
 ### 👤 **Jose Ricardo Peña Seco**
 * Github: [@Josericardopenase](https://github.com/josericardopenase)
 * LinkedIn: [@Jose Ricardo Peña Seco](https://www.linkedin.com/in/josepe%C3%B1aseco/)
-### 👤 **Willy Escobilla Biason**
+### 👤 **Willy Escovilla Biason**
 * Github: [@WillyRak](https://github.com/WillyRak)
-* LinkedIn: [@Willy Escobilla Biason](https://www.linkedin.com/in/willy-escovilla-biason-57388a268/)
+* LinkedIn: [@Willy Escovilla Biason](https://www.linkedin.com/in/willy-escovilla-biason-57388a268/)
 ### 👤 **Francisco Javier Dominguez Suarez**
 * Github: [@javidominguezsuarez](https://github.com/javidominguezsuarez)
 * LinkedIn: [@Francisco Javier Domínguez Suárez](https://www.linkedin.com/in/francisco-javier-dom%C3%ADnguez-su%C3%A1rez-b309ba199/)
