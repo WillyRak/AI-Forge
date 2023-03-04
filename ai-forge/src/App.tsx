@@ -1,25 +1,28 @@
-import { useEffect, useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css'
+import Layout from './components/common/Layout';
+import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 function App() {
-
-  const [count, setCount] = useState(0);
-
-  // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-    // Update the document title using the browser API
-    document.title = `You clicked ${count} times`;
-  });
-
   return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+      <Route
+          path="/"
+          element={
+            <Layout>
+              {<Home />}
+            </Layout>
+          }
+        />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register/>} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App
